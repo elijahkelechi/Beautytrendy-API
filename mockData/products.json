@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Cocoa Hydrating Body Lotion",
+    "price": 1200000,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1727958948/carousel-images/tmp-2-1727959007779_g5xoil.jpg",
+    "fragrances": ["lavender", "vanilla", "rose"],
+    "brand": "NaturGlow",
+    "description": "This rich, hydrating body lotion leaves your skin soft and smooth all day long. Infused with natural oils and fragrances, it helps to restore moisture and improve skin texture. Suitable for all skin types.",
+    "category": "moisturizers",
+    "featured": true,
+    "freeShipping": true,
+    "additionalImages": [
+      {
+        "url": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728394366/carousel-images/tmp-2-1728394437760_tnoudu.jpg"
+      },
+      {
+        "url": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728394410/carousel-images/tmp-1-1728394478713_pryfnj.jpg"
+      },
+      {
+        "url": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728394464/carousel-images/tmp-1-1728394539817_m0xiix.jpg"
+      }
+    ],
+    "sizes": [
+      {
+        "value": 200,
+        "unit": "ml",
+        "price": 1200000
+      },
+      {
+        "value": 150,
+        "unit": "ml",
+        "price": 950000
+      },
+      {
+        "value": 100,
+        "unit": "ml",
+        "price": 700000
+      }
+    ]
+  },
+  {
+    "name": "Milk Body Scrub",
+    "price": 1190000,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1727959308/carousel-images/tmp-3-1727959363515_bhcjg9.jpg",
+    "fragrances": ["citrus", "mint"],
+    "brand": "GlowEssence",
+    "description": "A revitalizing body scrub that gently exfoliates the skin, removing dead skin cells for a refreshed, glowing appearance. Formulated with natural exfoliants and essential oils for a spa-like experience at home.",
+    "category": "cleansers",
+    "featured": true,
+    "freeShipping": true,
+    "sizes": [
+      {
+        "value": 100,
+        "unit": "cl",
+        "price": 800000
+      },
+      {
+        "value": 50,
+        "unit": "cl",
+        "price": 450000
+      },
+      {
+        "value": 30,
+        "unit": "cl",
+        "price": 300000
+      }
+    ]
+  },
+  {
+    "name": "Shea Delight Body Butter",
+    "price": 14900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016014/carousel-images/tmp-1-1728016014231_dr898f.jpg",
+    "fragrances": ["shea", "almond"],
+    "brand": "SheaDelight",
+    "description": "Deeply nourishing body butter enriched with shea butter and almond oil. Leaves skin feeling soft and moisturized with a long-lasting glow.",
+    "category": "body butters & lotions",
+    "featured": true,
+    "freeShipping": false
+  },
+  {
+    "name": "Glow Facial Serum",
+    "price": 1890000,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016148/carousel-images/tmp-2-1728016146840_b6ikd4.jpg",
+    "fragrances": ["rosewater", "citrus"],
+    "brand": "NaturGlow",
+    "description": "A lightweight serum packed with vitamin C and hyaluronic acid, designed to brighten and hydrate the skin. Perfect for all skin types looking to reduce fine lines and wrinkles.",
+    "category": "serums",
+    "featured": true,
+    "freeShipping": true,
+    "sizes": [
+      {
+        "value": 500,
+        "unit": "g",
+        "price": 2000000
+      },
+      {
+        "value": 450,
+        "unit": "g",
+        "price": 1500000
+      },
+      {
+        "value": 300,
+        "unit": "g",
+        "price": 1200000
+      }
+    ]
+  },
+  {
+    "name": "SunCare Brightening Lotion",
+    "price": 13500,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016216/carousel-images/tmp-3-1728016215749_urfnyj.jpg",
+    "fragrances": ["orange", "coconut"],
+    "brand": "SunCare",
+    "description": "A brightening body lotion with SPF 30 to protect against harmful UV rays while providing deep hydration. Enriched with natural oils and vitamin E.",
+    "category": "moisturizers",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Nourishing Body Cream",
+    "price": 14900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016376/carousel-images/tmp-5-1728016375547_ccf3kz.jpg",
+    "fragrances": ["jasmine", "honey"],
+    "brand": "Nivea",
+    "description": "This luxurious body cream offers deep moisture, leaving your skin feeling smooth and soft. Perfect for dry skin, it's enriched with jasmine extract and honey.",
+    "category": "body butters & lotions",
+    "featured": true,
+    "freeShipping": false
+  },
+  {
+    "name": "Rejuvenating Face Serum",
+    "price": 17900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016298/carousel-images/tmp-4-1728016297858_phxav5.jpg",
+    "fragrances": ["chamomile", "green tea"],
+    "brand": "NaturGlow",
+    "description": "A powerful anti-aging serum that rejuvenates the skin with chamomile and green tea extracts. Helps to reduce wrinkles and improve skin elasticity.",
+    "category": "serums",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Brightening Cleanser",
+    "price": 11900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1727959410/carousel-images/tmp-6-1727959471802_iyolrc.jpg",
+    "fragrances": ["lemon", "mint"],
+    "brand": "GlowEssence",
+    "description": "A gentle cleanser designed to brighten the skin and remove impurities. Infused with lemon and mint extracts for a refreshing cleanse.",
+    "category": "cleansers",
+    "featured": true,
+    "freeShipping": false
+  },
+  {
+    "name": "SunCare Moisturizing Lotion",
+    "price": 12900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1727959710/carousel-images/tmp-7-1727959769839_yjnel2.jpg",
+    "fragrances": ["coconut", "sandalwood"],
+    "brand": "SunCare",
+    "description": "A lightweight moisturizing lotion with SPF 25, providing sun protection and hydration. Suitable for everyday use.",
+    "category": "moisturizers",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Radiant Glow Body Butter",
+    "price": 15900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1727959831/carousel-images/tmp-10-1727959893362_mprgxu.jpg",
+    "fragrances": ["mango", "papaya"],
+    "brand": "SheaDelight",
+    "description": "A rich body butter that provides intense hydration and a radiant glow. Infused with mango and papaya extracts for a tropical scent.",
+    "category": "body butters & lotions",
+    "featured": false,
+    "freeShipping": false
+  },
+  {
+    "name": "Lavender Body Lotion",
+    "price": 13900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016492/carousel-images/tmp-6-1728016491623_yk1jgn.jpg",
+    "fragrances": ["lavender", "vanilla"],
+    "brand": "GlowEssence",
+    "description": "A calming body lotion that soothes the skin and provides long-lasting moisture. Infused with lavender and vanilla for a relaxing experience.",
+    "category": "moisturizers",
+    "featured": true,
+    "freeShipping": false
+  },
+  {
+    "name": "Milk Exfoliating Scrub",
+    "price": 11900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016548/carousel-images/tmp-7-1728016548670_c0hhkq.jpg",
+    "fragrances": ["citrus", "aloe"],
+    "brand": "Nivea",
+    "description": "A revitalizing body scrub that gently exfoliates, removing dead skin cells for smooth, glowing skin. Infused with aloe and citrus extracts.",
+    "category": "cleansers",
+    "featured": false,
+    "freeShipping": false
+  },
+  {
+    "name": "Vitamin C Face Serum",
+    "price": 17900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016656/carousel-images/tmp-11-1728016655986_uqjgqp.jpg",
+    "fragrances": ["orange", "lemongrass"],
+    "brand": "NaturGlow",
+    "description": "An antioxidant-rich serum designed to brighten and even skin tone. Contains vitamin C and lemongrass to reduce dark spots and boost radiance.",
+    "category": "serums",
+    "featured": true,
+    "freeShipping": true
+  },
+  {
+    "name": "Whipped Shea Butter",
+    "price": 16500,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016591/carousel-images/tmp-8-1728016590545_flgc4d.jpg",
+    "fragrances": ["shea", "coconut"],
+    "brand": "SheaDelight",
+    "description": "A whipped body butter that deeply hydrates and nourishes the skin. Made with pure shea butter and coconut oil for a soft, luxurious feel.",
+    "category": "body butters & lotions",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Hydration Boost Cleanser",
+    "price": 12900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016685/carousel-images/tmp-12-1728016684993_vpwvze.jpg",
+    "fragrances": ["rose", "aloe vera"],
+    "brand": "GlowEssence",
+    "description": "A hydrating cleanser formulated with aloe vera and rose extracts to provide a deep yet gentle cleanse, leaving skin feeling refreshed.",
+    "category": "cleansers",
+    "featured": false,
+    "freeShipping": false
+  },
+  {
+    "name": "Brightening Day Serum",
+    "price": 18900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016785/carousel-images/tmp-9-1728016784567_vesknj.jpg",
+    "fragrances": ["orange blossom", "chamomile"],
+    "brand": "NaturGlow",
+    "description": "A brightening day serum packed with vitamin C and orange blossom, designed to hydrate and even out skin tone. Lightweight and fast-absorbing.",
+    "category": "serums",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Ultra Moisturizing Cream",
+    "price": 15900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728016876/carousel-images/tmp-10-1728016875961_fskjsd.jpg",
+    "fragrances": ["lavender", "aloe"],
+    "brand": "SunCare",
+    "description": "A rich moisturizing cream that provides deep hydration and soothes irritated skin. Perfect for dry or sensitive skin types.",
+    "category": "moisturizers",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Glow Hydrating Lotion",
+    "price": 12500,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728017002/carousel-images/tmp-11-1728017002304_bh6yce.jpg",
+    "fragrances": ["vanilla", "rose"],
+    "brand": "GlowEssence",
+    "description": "This hydrating lotion leaves skin soft and supple. Infused with vanilla and rose, it provides lasting moisture and a light, pleasant fragrance.",
+    "category": "moisturizers",
+    "featured": true,
+    "freeShipping": false
+  },
+  {
+    "name": "Aloe Vera Cleanser",
+    "price": 11900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728017056/carousel-images/tmp-12-1728017055135_ik7exf.jpg",
+    "fragrances": ["aloe vera", "mint"],
+    "brand": "NaturGlow",
+    "description": "A gentle cleanser with aloe vera and mint, perfect for refreshing and hydrating the skin. Suitable for all skin types.",
+    "category": "cleansers",
+    "featured": true,
+    "freeShipping": false
+  },
+  {
+    "name": "Exfoliating Face Scrub",
+    "price": 13500,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728017112/carousel-images/tmp-13-1728017112395_xvpvsv.jpg",
+    "fragrances": ["green tea", "cucumber"],
+    "brand": "Nivea",
+    "description": "A rejuvenating face scrub that gently exfoliates and removes impurities. Infused with green tea and cucumber for a refreshing, cooling sensation.",
+    "category": "cleansers",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Nourishing Body Cream",
+    "price": 14900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728017234/carousel-images/tmp-14-1728017234501_bopdjx.jpg",
+    "fragrances": ["jasmine", "vanilla"],
+    "brand": "SheaDelight",
+    "description": "This nourishing body cream deeply hydrates with a luxurious blend of jasmine and vanilla. Ideal for dry or sensitive skin.",
+    "category": "body butters & lotions",
+    "featured": true,
+    "freeShipping": true
+  },
+  {
+    "name": "SPF 50 Face Sunscreen",
+    "price": 19900,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728017288/carousel-images/tmp-15-1728017288785_garbnc.jpg",
+    "fragrances": ["sandalwood", "citrus"],
+    "brand": "SunCare",
+    "description": "An SPF 50 sunscreen designed to protect your face from harmful UV rays while keeping it hydrated. Non-greasy and lightweight.",
+    "category": "serums",
+    "featured": false,
+    "freeShipping": true
+  },
+  {
+    "name": "Refreshing Aloe Face Mist",
+    "price": 14500,
+    "image": "https://res.cloudinary.com/drg9uyqf9/image/upload/v1728017332/carousel-images/tmp-16-1728017331953_wymtwv.jpg",
+    "fragrances": ["aloe vera", "rosewater"],
+    "brand": "NaturGlow",
+    "description": "A cooling face mist with aloe vera and rosewater to refresh and hydrate your skin anytime, anywhere.",
+    "category": "serums",
+    "featured": true,
+    "freeShipping": false
+  }
+]

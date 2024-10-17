@@ -76,7 +76,7 @@ app.use("/api/v1/orders", orderRouter);
 
 // Test routes
 app.get("/", (req, res) => {
-  res.send("hello Beautytrendy api");
+  res.send("hello Beautytrendy api check");
 });
 
 app.get("/api/v1", (req, res) => {

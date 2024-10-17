@@ -54,7 +54,7 @@ const createOrder = async (req, res, next) => {
     //create payment intent //Testing Mode
     const paymentIntent = await stripe.paymentIntents.create({
       amount: total * 100,
-      currency: "NGN",
+      currency: "USD",
     });
     const order = await Order.create({
       orderItems,

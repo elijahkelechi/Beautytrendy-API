@@ -19,7 +19,7 @@ const getClientSecret = async (req, res, next) => {
       throw new BadRequestError("The total amount shoud be greater than zero");
     }
     const paymentIntent = await stripe.paymentIntents.create({
-      amount: total * 100,
+      amount: total * 100000,
       currency: "USD",
     });
     res

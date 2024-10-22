@@ -85,9 +85,7 @@ const createOrder = async (req, res, next) => {
       user: req.user.id,
     });
 
-    res
-      .status(StatusCodes.CREATED)
-      .json({ order, clientSecret: paymentIntent.client_secret });
+    res.status(StatusCodes.CREATED).json({ order, clientSecret: clientSecret });
   } catch (error) {
     next(error);
   }

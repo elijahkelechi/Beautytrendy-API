@@ -76,7 +76,7 @@ app.use("/api/v1/orders", orderRouter);
 
 // Test routes
 app.get("/", (req, res) => {
-  res.send("hello client_secret route2");
+  res.send("hello client_secret route25");
 });
 
 app.get("/api/v1", (req, res) => {

@@ -20,7 +20,7 @@ router
   .get(authenticateUser, authorizedPermission("admin"), getAllOrders);
 
 router.get("/currentUserOrders", authenticateUser, getCurrentUserOrders);
-router.get("/clientsSecret", authenticateUser, getClientSecret);
+router.post("/clientsSecret", authenticateUser, getClientSecret);
 
 router
   .route("/:id")

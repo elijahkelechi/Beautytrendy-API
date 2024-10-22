@@ -12,6 +12,24 @@ const {
 require("dotenv").config();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
+const getClientSecret = async (req, res, next) => {
+  try {
+    const { total } = req.body;
+    if (!total) {
+      throw new BadRequestError("The total amount shoud be greater than zero");
+    }
+    const paymentIntent = await stripe.paymentIntent.create({
+      amount: total * 100,
+      currency: "USD",
+    });
+    res
+      .status(StatusCodes.OK)
+      .json({ clientSecret: paymentIntent.client_secret });
+  } catch (error) {
+    next(error);
+  }
+};
+
 const createOrder = async (req, res, next) => {
   try {
     const {
@@ -23,6 +41,7 @@ const createOrder = async (req, res, next) => {
       formCity,
       formState,
       formCountry,
+      clientSecret,
     } = req.body;
     if (!cartItems || cartItems.length < 1) {
       throw new BadRequestError("details required in cart Items");
@@ -51,11 +70,6 @@ const createOrder = async (req, res, next) => {
     }
     const total = tax + shippingFee + subtotal;
 
-    //create payment intent //Testing Mode
-    const paymentIntent = await stripe.paymentIntents.create({
-      amount: total * 100,
-      currency: "USD",
-    });
     const order = await Order.create({
       orderItems,
       tax,
@@ -67,7 +81,7 @@ const createOrder = async (req, res, next) => {
       formCountry,
       subtotal,
       total,
-      clientSecret: paymentIntent.client_secret,
+      clientSecret,
       user: req.user.id,
     });
 
@@ -137,6 +151,7 @@ const updateOrder = async (req, res, next) => {
 };
 
 module.exports = {
+  getClientSecret,
   createOrder,
   getAllOrders,
   getSingleOrder,

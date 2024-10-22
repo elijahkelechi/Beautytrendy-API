@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const {
+  getClientSecret,
   createOrder,
   getAllOrders,
   getSingleOrder,
@@ -19,6 +20,7 @@ router
   .get(authenticateUser, authorizedPermission("admin"), getAllOrders);
 
 router.get("/currentUserOrders", authenticateUser, getCurrentUserOrders);
+router.get("/clientsSecret", authenticateUser, getClientSecret);
 
 router
   .route("/:id")

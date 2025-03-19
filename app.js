@@ -42,6 +42,7 @@ app.use(xss());
 app.use(mongoSanitize());
 
 const allowedOrigins = [
+  "https://sonnatrendy.vercel.app",
   "http://localhost:5174",
   "https://beautytrendy.vercel.app",
 ];
